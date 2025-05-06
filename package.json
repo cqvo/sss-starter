@@ -1,0 +1,17 @@
+{
+  "name": "sss-starter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter=frontend dev",
+    "build": "pnpm --recursive build",
+    "lint": "pnpm --recursive lint",
+    "format": "pnpm --recursive format",
+    "db:generate": "pnpm --filter=database generate",
+    "db:migrate": "pnpm --filter=database migrate"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

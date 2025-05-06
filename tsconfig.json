@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@resoom/database": ["./packages/database/src/index.ts"],
+      "@resoom/auth": ["./packages/auth/src/index.ts"],
+      "@resoom/ui": ["./packages/ui/src/index.ts"],
+      "@resoom/config/*": ["./packages/config/*/index.ts"]
+    }
+  }
+}
