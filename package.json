@@ -30,7 +30,7 @@
 		"@testing-library/jest-dom": "^6.6.3",
 		"@testing-library/svelte": "^5.2.4",
 		"@types/node": "^22",
-		"drizzle-kit": "^0.30.2",
+		"drizzle-kit": "^0.31.1",
 		"jsdom": "^26.0.0",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
@@ -45,7 +45,7 @@
 	"dependencies": {
 		"@supabase/ssr": "^0.6.1",
 		"@supabase/supabase-js": "^2.49.4",
-		"drizzle-orm": "^0.40.0",
+		"drizzle-orm": "^0.43.1",
 		"postgres": "^3.4.5"
 	},
 	"pnpm": {
